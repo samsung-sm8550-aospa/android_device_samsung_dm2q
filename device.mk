@@ -16,6 +16,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     init.dm2q.rc
 
+# Kernel Binary
+KERNEL_PREBUILT_DIR := device/samsung/dm2q-kernel
+
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
